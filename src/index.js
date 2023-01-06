@@ -8,18 +8,17 @@ import Error from './components/Error';
 import { Routes, Route } from 'react-router-dom'
 import Results from './pages/Results'
 import Freelances from './pages/Freelances/index';
-import { createGlobalStyle } from 'styled-components';
+import GlobalStyle from './utils/style/GlobalStyle'
+import Footer from './components/Footer';
+import { ThemeProvider, SurveyProvider } from './utils/context';
 
-const GlobalStyle = createGlobalStyle`
-    div {
-        font-family: 'Trebuchet MS', Helvetica, sans-serif;
-    }
-`
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
+    <ThemeProvider>
+    <SurveyProvider>
     <GlobalStyle />
     <Header />
       <Routes>
@@ -30,6 +29,9 @@ root.render(
         <Route path="/freelances" element={<Freelances />} />
         <Route path="*" element={<Error />} />
       </Routes>
+      <Footer />
+      </SurveyProvider>
+      </ThemeProvider>
     </BrowserRouter>
   </React.StrictMode>
 );
