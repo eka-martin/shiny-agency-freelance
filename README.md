@@ -7,10 +7,10 @@ travail en cours, veuillez consulter le branch 'ver_1.0'
 Open a terminal
 
 cd backend npm install
-cd backend nodemon index
+<br>cd backend nodemon index
 
 Open an other terminal
 
 cd frontend npm install
-cd frontend npm start
+<br>cd frontend npm start
 
