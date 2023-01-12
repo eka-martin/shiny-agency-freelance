@@ -1,4 +1,4 @@
-Une application complète React pour l'agence de freelances Shiny (utilisation de TS, styled components, useContext, custom hooks, les tests)
+Une application complète React pour l'agence de freelances Shiny (maquette Figma, utilisation de TS, styled components, useContext, custom hooks, les tests)
 
 Run a project
 
