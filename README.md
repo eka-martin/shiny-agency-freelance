@@ -2,7 +2,7 @@ travail en cours, veuillez consulter branch 'version 1.0'
 
 
 
-Run a project
+<b>Run a project</b>
 
 Open a terminal
 
