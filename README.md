@@ -1,4 +1,4 @@
-travail en cours, veuillez consulter branch 'version 1.0'
+travail en cours, veuillez consulter je branch 'ver_1.0'
 
 
 
