@@ -101,7 +101,7 @@ function Survey() {
     <SurveyContainer>
       <QuestionTitle theme={theme}>Question {questionNumber}</QuestionTitle>
       {isLoading ? (
-        <Loader />
+        <Loader data-testid="loader"/>
       ) : (
         <QuestionContent theme={theme}> {surveyData[questionNumber]}</QuestionContent>
       )}
