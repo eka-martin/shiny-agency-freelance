@@ -10,8 +10,14 @@ Open a terminal
 
 Open an other terminal
 
-    cd frontend npm install
-    cd frontend npm start
+    npm install
+    npm start
+   
+For testing
+Open an other terminal
+
+    npm run test
+    
 
 
 
