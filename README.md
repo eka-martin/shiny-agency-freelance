@@ -1,3 +1,4 @@
+
 Une application complète React pour l'agence de freelances Shiny (maquette Figma, utilisation de TS, styled components, useContext, custom hooks, les tests)
 
 Run a project
@@ -11,4 +12,6 @@ Open an other terminal
 
     cd frontend npm install
     cd frontend npm start
+
+
 
