@@ -8,13 +8,13 @@ Open a terminal
     cd backend npm install
     cd backend nodemon index
 
-Open an other terminal
+Open an another terminal
 
     npm install
     npm start
    
 For testing
-Open an other terminal
+Open an another terminal
 
     npm run test
     
